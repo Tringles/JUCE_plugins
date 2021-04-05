@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ajZIYJ" name="tracktionTransport" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="qjVUP6" name="tracktionTransport">
+    <GROUP id="{079D8195-19DF-D464-4E45-E2AB1768BE6A}" name="Source">
+      <FILE id="C3a66G" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="HBJxM1" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="RdtPxg" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="tracktionTransport"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="tracktionTransport"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../juce-6.0.5-osx/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce-6.0.5-osx/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce-6.0.5-osx/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce-6.0.5-osx/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../juce-6.0.5-osx/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../juce-6.0.5-osx/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce-6.0.5-osx/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce-6.0.5-osx/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce-6.0.5-osx/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce-6.0.5-osx/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce-6.0.5-osx/JUCE/modules"/>
+        <MODULEPATH id="tracktion_engine" path="../../tracktion_engine/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_osc" path="../../tracktion_engine/modules/juce/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="tracktion_engine" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
